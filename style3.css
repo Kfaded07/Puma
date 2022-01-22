@@ -1,0 +1,116 @@
+/*products men and women*/
+.men{
+  text-align: center;
+color: black;
+}
+.men:hover{
+  color: red;
+}
+.col-3{
+  flex-basis: 25%;
+  padding: 12px;
+  min-width: 300px;
+  margin-top:-30px;
+  transition: transform 0.5s;
+}
+
+.col-3 img{
+width: 100%;
+margin-top: 70px;
+}
+.col-3:hover{
+outline-style: hidden;
+  transform: translateY(-55px);
+}
+h4{
+  color: black;
+  font-weight: normal;
+  text-align: center;
+  padding: 45px;
+  margin-top: 30px;
+}
+h4:hover{
+  color: red;
+}
+.col-3 p{
+  font-size: 14px;
+  color: red;
+  text-align: center;
+}
+.col-3 p:hover{
+  color: black;
+}
+
+.men:hover{
+color: red;
+}
+/*rating*/
+.rating .fa .col-3{
+  text-align: center;
+  margin-left: -90px;
+
+}
+.col-3 .fa{
+  text-align: center;
+    color: black;
+}
+.rating .fa:hover{
+  color: red;
+}
+
+/*women*/
+.women{
+  text-align: center;
+color: black;
+
+}
+
+.women:hover{
+  color: red;
+}
+.col-3{
+  flex-basis: 25%;
+  padding: 75px;
+  min-width: 300px;
+  margin-top:-30px;
+  transition: transform 0.5s;
+}
+
+.col-3 img{
+width: 100%;
+margin-top: 70px;
+}
+.col-3:hover{
+outline-style: hidden;
+  transform: translateY(-55px);
+}
+h4{
+  color: black;
+  font-weight: normal;
+  text-align: center;
+  padding: 45px;
+  margin-top: 30px;
+}
+h4:hover{
+  color: red;
+}
+.col-3 p{
+  font-size: 14px;
+  color: red;
+  text-align: center;
+}
+.col-3 p:hover{
+  color: black;
+}
+/*rating*/
+.rating .fa {
+  text-align: center;
+
+}
+.col-3 .fa{
+  text-align: center;
+    color: black;
+}
+.rating .fa:hover{
+  color: red;
+}

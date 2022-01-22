@@ -1,0 +1,123 @@
+/*brand-->*/
+.brands{
+  padding: 0px 20px;
+  margin-top: 50px;
+}
+
+.col-6{
+  width: 160px;
+}
+
+.col-6 img{
+  width: 100%;
+  cursor: pointer;
+  filter: grayscale(100%);
+}
+.col-6  img:hover{
+    filter: grayscale(0);
+}
+/*footer*/
+.footer{
+  background: black;
+  color: red;;
+  font-size: 14px;
+  padding: 60px 0 20px;
+}
+.footer p{
+  color: red;;
+}
+.footer p:hover{
+  color: white;
+}
+.footer h3{
+  color: white;
+  margin-bottom: 20px;
+}
+.footer h3:hover{
+  color: red;
+}
+
+.footer-col-1, .footer-col-2,.footer-col-3,.footer-col-4{
+  min-width: 250px;
+  margin-bottom: 20px;
+}
+.footer-col-1{
+  flex-basis: 30%;
+}
+.footer-col-2{
+  flex:1;
+  text-align: center;
+}
+.footer-col-2 img{
+  width: 100px;
+  margin-bottom: 20px;
+}
+.footer-col-3, .footer-col-4{
+  flex-basis: 12%;
+  text-align: center;
+}
+.footer-col-3, .footer-col-4:hover{
+  color:red;
+}
+.footer-col-3:hover{
+  color: white;
+}
+ul{
+  list-style-type: none;
+}
+.app-logo{
+  margin-top: 20px;
+}
+.app-logo img{
+  width: 140px;
+}
+.footer hr{
+  border: none;
+  background: black;
+  height: 1px;
+  margin: 20px 0;
+}
+.copyright{
+  text-align: center;
+}
+.menu-icon{
+  width: 28px;
+  margin-left: 30px;
+  display: none;
+
+  padding-bottom: 180px;
+}
+/*mesia query for menu*/
+@media only screen and(max-width:800px){
+  nav ul{
+    position: absolute;
+    top: 70px;
+    left: 0;
+    background: #333;
+    width: 100%;
+    overflow: hidden;
+    transition: max-height 0.5s;
+  }
+  nav ul li{
+    display: block;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  nav ul li a{
+    color: #fff;
+  }
+  .menu-icon{
+    display: block;
+    cursor: pointer;
+  }
+}
+/*mesida query  for less than 600 screen size--*/
+@media only screen and(max-width:600px) {
+.row{
+  text-align: center;
+}
+.col-2,.col-3,.col-4{
+flex-basis: 100%;
+}
+}
